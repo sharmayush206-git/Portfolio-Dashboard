@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ayush Kumar Sharma - Career Dashboard</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+</head>
+
+<body>
+
+<header>
+Ayush  Career Dashboard
+</header>
+
+<div class="container">
+
+<div class="sidebar">
+
+<img src="passport size photo.jpeg" id="photo">
+
+<h2 id="name">Ayush Kumar Sharma</h2>
+
+<p>B.Tech CSE Student</p>
+
+<hr><br>
+
+<p><b>Email</b></p>
+<p>sharmayush206@gmail.com</p>
+
+<br>
+
+<p><b>Phone</b></p>
+<p>+91-9451897402</p>
+
+<br>
+
+<p><b>CGPA</b></p>
+<p>8.2</p>
+
+<button onclick="editProfile()">Edit Profile</button>
+
+<br></br>
+
+<h3>Skills:</h3>
+<ul>
+<li>JavaScript</li>
+<li>Python</li>
+<li>Cyber Security</li>
+<li>Linux</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>Bootstrap</li>
+<li>Computer Network</li>
+</ul>
+
+</div>
+
+<div class="main">
+
+<div class="card">
+
+<h3>About Me</h3>
+
+<p id="about">
+Cyber Security Enthusiast passionate about Web Security, Ethical Hacking,
+Networking and Full Stack Development.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Skills</h3>
+
+<div class="skill">
+JavaScript
+<div class="progress"><div class="bar" style="width:90%"></div></div>
+</div>
+
+<div class="skill">
+Python
+<div class="progress"><div class="bar" style="width:85%"></div></div>
+</div>
+
+<div class="skill">
+Cyber Security
+<div class="progress"><div class="bar" style="width:95%"></div></div>
+</div>
+
+<div class="skill">
+Linux
+<div class="progress"><div class="bar" style="width:80%"></div></div>
+</div>
+
+</div>
+
+<div class="card">
+
+<h3>Education</h3>
+
+<table>
+
+<tr>
+<th>Course</th>
+<th>College</th>
+<th>Year</th>
+</tr>
+
+<tr>
+<td>B.Tech CSE</td>
+<td>AKTU</td>
+<td>2023-2027</td>
+</tr>
+
+<tr>
+<td>Intermediate</td>
+<td>UP Board</td>
+<td>2023</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="card">
+
+<h3>Projects</h3>
+
+<ul>
+
+<li>Voice Controlled Home Automation</li>
+
+<li>Student Career Dashboard</li>
+
+<li>Network Packet Analyzer</li>
+
+<li>Password Manager</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h3>Skill Analytics</h3>
+
+<canvas id="chart"></canvas>
+<script src="script.js"></script>
+
+</div>
+
+<div class="card">
+
+<h3>Contact Me</h3>
+
+<input placeholder="Your Name">
+
+<input placeholder="Email">
+
+<textarea placeholder="Message"></textarea>
+
+<button onclick="send()">Send</button>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+Made with ❤️🫀by AYUSH using HTML CSS JavaScript
+
+</footer>
+
+
+
+</body>
+</html>
